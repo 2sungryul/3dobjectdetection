@@ -77,11 +77,11 @@ def model_inference(cfg_file, data_path, ckpt_path):
 
 if __name__ == '__main__':
 
-    cfg_file = "cfgs/kitti_models/pointpillar.yaml"
-    #cfg_file = "cfgs/kitti_models/pointrcnn.yaml"
-    #cfg_file = "cfgs/kitti_models/second.yaml"
-    #cfg_file = "cfgs/kitti_models/voxel_rcnn_car.yaml"
-    #cfg_file = "cfgs/kitti_models/pv_rcnn.yaml"
+    cfg_file = "pointpillar.yaml"
+    #cfg_file = "pointrcnn.yaml"
+    #cfg_file = "second.yaml"
+    #cfg_file = "voxel_rcnn_car.yaml"
+    #cfg_file = "pv_rcnn.yaml"
 
     data_path = "000000.bin"
     #data_path = "000008.bin"
