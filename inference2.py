@@ -2,7 +2,7 @@ import argparse
 import glob
 from pathlib import Path
 import open3d
-from visual_utils import open3d_vis_utils as V
+#from visual_utils import open3d_vis_utils as V
 import numpy as np
 import torch
 from pcdet.config import cfg, cfg_from_yaml_file
